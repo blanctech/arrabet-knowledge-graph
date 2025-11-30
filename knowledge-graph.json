@@ -1,0 +1,166 @@
+{
+  "entity": "Arrabet Holding",
+  "type": "Tech Investment Holding",
+  "mission": "Build a leading African tech ecosystem delivering integrated solutions across Digital Build, Integration, Data, AI, Sovereign AI, Creative Design and Venture Building.",
+
+  "subsidiaries": [
+    {
+      "name": "Mobiblanc",
+      "role": "Digital Build Factory",
+      "expertise": [
+        "Web & mobile apps",
+        "Digital products",
+        "Selfcare platforms",
+        "UX/UI",
+        "Nearshore engineering"
+      ]
+    },
+    {
+      "name": "Foster Processing",
+      "role": "Solutions Integration",
+      "expertise": [
+        "Core banking",
+        "ERP/CRM",
+        "Cloud",
+        "DevOps",
+        "Automation",
+        "Enterprise integration"
+      ]
+    },
+    {
+      "name": "The Frontline Unit",
+      "role": "Data & AI Factory",
+      "expertise": [
+        "Data platforms",
+        "AI use cases",
+        "LLMs",
+        "Automation",
+        "Applied AI for telecom, finance, retail and public sector"
+      ]
+    },
+    {
+      "name": "Aiscapade",
+      "role": "Sovereign AI Lab",
+      "expertise": [
+        "Sovereign AI models",
+        "Hybrid AI architectures",
+        "Responsible and auditable AI",
+        "MLOps"
+      ]
+    },
+    {
+      "name": "AsteriCX",
+      "role": "Public Sector Digital",
+      "expertise": [
+        "Citizen experience",
+        "Public digital services",
+        "Public-sector reporting",
+        "Workflow automation"
+      ]
+    },
+    {
+      "name": "Arrabet Academy",
+      "role": "Talent Development",
+      "expertise": [
+        "Data",
+        "AI",
+        "Product",
+        "Cloud",
+        "Software engineering",
+        "Capacity building"
+      ]
+    },
+    {
+      "name": "Palpz",
+      "role": "Creative & Digital Branding Studio",
+      "expertise": [
+        "Brand identity",
+        "Rebranding",
+        "UI/UX design",
+        "Design systems",
+        "Motion design",
+        "Digital content",
+        "Creative campaigns"
+      ]
+    },
+    {
+      "name": "Arrabet.Ventures",
+      "role": "Venture Studio & Investment Arm",
+      "expertise": [
+        "Venture building",
+        "SaaS incubation",
+        "Early-stage funding",
+        "Go-to-market",
+        "AI-first startups"
+      ]
+    }
+  ],
+
+  "relations": [
+    {
+      "from": "Mobiblanc",
+      "to": "The Frontline Unit",
+      "type": "AI and data activation in digital products"
+    },
+    {
+      "from": "Foster Processing",
+      "to": "Mobiblanc",
+      "type": "Integration of enterprise solutions and modern interfaces"
+    },
+    {
+      "from": "The Frontline Unit",
+      "to": "Aiscapade",
+      "type": "Sovereign AI foundation and model industrialisation"
+    },
+    {
+      "from": "Mobiblanc",
+      "to": "Aiscapade",
+      "type": "AI-enabled digital applications"
+    },
+    {
+      "from": "The Frontline Unit",
+      "to": "AsteriCX",
+      "type": "Data and AI use cases for the public sector"
+    },
+    {
+      "from": "Arrabet Academy",
+      "to": "All",
+      "type": "Talent development and training for all entities"
+    },
+    {
+      "from": "Palpz",
+      "to": "Mobiblanc",
+      "type": "UI/UX and product design for digital platforms"
+    },
+    {
+      "from": "Palpz",
+      "to": "The Frontline Unit",
+      "type": "Visual storytelling and data/AI communication"
+    },
+    {
+      "from": "Arrabet.Ventures",
+      "to": "Mobiblanc",
+      "type": "MVP and product engineering for new ventures"
+    },
+    {
+      "from": "Arrabet.Ventures",
+      "to": "Foster Processing",
+      "type": "Cloud and system integration for startups"
+    },
+    {
+      "from": "Arrabet.Ventures",
+      "to": "The Frontline Unit",
+      "type": "AI-first product features for portfolio startups"
+    },
+    {
+      "from": "Arrabet.Ventures",
+      "to": "Palpz",
+      "type": "Branding and pitch design for startups"
+    },
+    {
+      "from": "Arrabet.Ventures",
+      "to": "Arrabet Academy",
+      "type": "Talent pipeline and teams for new ventures"
+    }
+  ]
+}
